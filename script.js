@@ -46,6 +46,6 @@ xhttp.onreadystatechange = function() {
     }
   }
 };
-xhttp.open("GET", "https://oat.hisgis.nl/oat-ws/rest/tarieven", true);
+xhttp.open("GET", "https://oat.hisgis.nl/oat-ws/rest/tarieven");
 xhttp.setRequestHeader("Content-type", "application/json");
 xhttp.send(null);
