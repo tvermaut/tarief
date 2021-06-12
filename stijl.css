@@ -1,0 +1,167 @@
+body{
+  /*background-color: #cccccc;*/
+}
+
+
+table, th, td, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.bedrag{
+  font-weight:bold;
+  color:#00aa00;
+}
+
+.klasse{
+  color:#0000ff;
+  font-weight:bold;
+}
+
+li,ul{
+  margin: 0 0;
+}
+.tariefsoort{
+  color:purple;
+  font-weight:bold;
+}
+
+.gewas{
+  color:fuchsia;
+  font-weight:bold;
+}
+
+.noot{
+  color:#0000ff;
+  font-style: italic;
+}
+
+.tariefverwijzing{
+  color:#0000ff;
+}
+
+.tariefverwijzing  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+.tariefverwijzing  li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
+.tariefverwijzing  li:before {
+    content: '&#8614;';
+    padding-right: 5px;
+  }
+
+.tariefverwijzingbox {
+  color: #0000ff;
+  border:1px solid #0000ff;
+  display: inline-block;
+  padding-left:1px;
+  padding-right:1px;
+    }
+
+.categorie{
+  display: inline-block;
+  color:orange;
+  border:1px solid orange;
+  padding-left:1px;
+  padding-right:1px;
+}
+
+.subcategorie{
+  color:orange;
+  font-family: monospace;
+}
+
+
+/*
+.tarieftabelentry{
+  border:1px solid black;
+  padding-left:3px;
+  padding-right:3px;
+  margin:1px;
+  padding:1px;
+  margin-left:1em;
+  background-color:#cccccc;
+  border-radius:5px;
+}
+*/
+
+
+
+
+hr{
+  display:block;
+border:none;
+color:white;
+height:2px;
+background:lightgray;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 950, from(black), to(#fff));
+}
+
+h4{
+  margin-bottom:0.5em;
+}
+
+.klassetarieftabel table,tr,td,tbody{
+  border: 0px ;
+  margin: 0px;
+  padding:0px;
+}
+
+.klasseerdiv table,tr,td,tbody{
+  border: 0px ;
+  margin: 0px;
+  padding:0px;
+}
+
+.klasseerdiv{
+  display:inline-block;
+  border:1px solid black;
+  padding-left:3px;
+  padding-right:3px;
+  border-radius:5px;
+  background-color:#cccccc;
+  margin-bottom:-3px;
+  margin-left:3px;
+  margin-right:3px;
+  white-space: nowrap;
+}
+
+.huh{
+  border: 1px solid #ff0000;
+  font-weight: bold;
+  min-width: 1.5em;
+  text-align: center;
+  display: inline-block;
+  color:#ff0000;
+  background-color:rgba(255,0,0,0.3);
+}
+
+.oatGebruik{
+  display: inline-block;
+  color:brown;
+  border:1px solid brown;
+  margin-right:2px;
+  margin-left:2px;
+  margin-bottom:1px;
+  padding-left:1px;
+  padding-right:1pt;
+}
+
+.customnummerlijst{
+  column-count: 3;
+  display: none;
+}
+/*
+.customnummerlijst > li:before {
+  content: attr(seq) ". ";
+}*/
+
+.standaardOatGebruik{
+  background-color:rgba(0,170,0,0.3);
+}
