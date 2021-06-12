@@ -30,7 +30,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200){
     oat = JSON.parse(this.responseText);
-    for g in oat.results{
+    for g in oat['results']{
       gemeente = new Gemeente(g.naam, g.status);
       for t in g.tariefsoorten{
         if(t.naam not in ats){ats[t.naam] = new Tariefsoort(t.naam, t.gebouwd);}
