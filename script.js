@@ -32,6 +32,7 @@ body.onload() = function(){
     if (this.readyState == 4 && this.status == 200){
       oat = JSON.parse(this.responseText);
       alert(oat.keys());
+      /*
       for g in oat.results{
         gemeente = new Gemeente(g.naam, g.status);
         for t in g.tariefsoorten{
@@ -44,7 +45,7 @@ body.onload() = function(){
               }
             }
           }
-        }
+        }*/
       }
     }
   };
