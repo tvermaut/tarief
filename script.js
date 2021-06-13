@@ -26,7 +26,7 @@ class Gemeente{
 ats = {};
 
 oat = null;
-body.onload() = function(){
+document.onload() = function(){
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200){
