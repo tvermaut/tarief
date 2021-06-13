@@ -35,9 +35,9 @@ window.onload = function(){
       oat = JSON.parse(this.responseText);
       //alert(oat.keys());
       
-      for(g in oat.results){
+      for(var g in oat.results){
         gemeente = new Gemeente(g.naam, g.status);
-        for (t in g.tariefsoorten){
+        for (var t in g.tariefsoorten){
           if(t.naam not in ats){ats[t.naam] = new Tariefsoort(t.naam, t.gebouwd);}
           ts = ats[t.naam];
           for tarief in t.tarieven{
