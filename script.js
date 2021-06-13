@@ -28,6 +28,7 @@ ats = {};
 oat = null;
 window.onload = function(){
   oat = null;
+  ats = {};
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200){
