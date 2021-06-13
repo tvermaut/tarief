@@ -31,8 +31,8 @@ window.onload = function(){
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200){
       oat = JSON.parse(this.responseText);
-      alert(oat.keys());
-      /*
+      //alert(oat.keys());
+      
       for g in oat.results{
         gemeente = new Gemeente(g.naam, g.status);
         for t in g.tariefsoorten{
@@ -46,7 +46,7 @@ window.onload = function(){
             }
           }
         }
-      }*/
+      }
     }
   };
   xhttp.open("GET", "https://oat.hisgis.nl/oat-ws/rest/tarieven");
