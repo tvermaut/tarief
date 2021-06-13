@@ -36,7 +36,7 @@ window.onload = function(){
       for g in oat.results{
         gemeente = new Gemeente(g.naam, g.status);
         for t in g.tariefsoorten{
-          if(t.naam not in ats){ats[t.naam] = new Tariefsoort(t.naam, t.gebouwd);}
+          /*if(t.naam not in ats){ats[t.naam] = new Tariefsoort(t.naam, t.gebouwd);}
           ts = ats[t.naam];
           for tarief in t.tarieven{
             for gg in tarief.oatGebruik.keys(){
@@ -45,7 +45,7 @@ window.onload = function(){
               }
             }
           }
-        }
+        }*/
       }
     }
   };
