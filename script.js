@@ -45,8 +45,8 @@ body.onload() = function(){
               }
             }
           }
-        }*/
-      }
+        }
+      }*/
     }
   };
   xhttp.open("GET", "https://oat.hisgis.nl/oat-ws/rest/tarieven");
